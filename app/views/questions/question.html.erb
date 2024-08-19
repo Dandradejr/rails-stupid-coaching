@@ -1,0 +1,5 @@
+<%= form_tag('/answer', method: :get) do %>
+  <%= label_tag(:question, "Faça uma pergunta ao treinador:") %>
+  <%= text_field_tag(:question) %>
+  <%= submit_tag("Submit") %>
+<% end %>
